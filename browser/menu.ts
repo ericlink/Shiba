@@ -59,6 +59,13 @@ export function build(main_window: Electron.BrowserWindow) {
                 {
                     role: 'resetzoom',
                 },
+				// needs if mac and window menu to do PR
+                {
+                    type: 'separator',
+                },
+                {
+                    role: 'hide',
+                },
                 {
                     type: 'separator',
                 },
